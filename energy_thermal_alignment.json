@@ -1,0 +1,18 @@
+{
+  "task_instances": 21600,
+  "final_temp_measured": {
+    "energy_opt_is_coolest_share": 0.14537037037037037,
+    "energy_opt_not_coolest_share": 0.8546296296296296,
+    "energy_opt_is_hottest_share": 0.026064814814814815,
+    "energy_opt_is_hottest_count": 563
+  },
+  "peak_temp_ideal": {
+    "energy_opt_in_coolest_set_share": 0.9542592592592593,
+    "energy_opt_unique_hottest_share": 0.0,
+    "all_devices_tied_at_start_temp_share": 0.3849537037037037
+  },
+  "steady_state_rise": {
+    "energy_opt_is_lowest_share": 0.7809259259259259,
+    "energy_opt_is_highest_share": 0.0
+  }
+}

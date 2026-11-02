@@ -1,0 +1,7 @@
+{
+  "agreement_with_measured_sign": 0.9136574074074074,
+  "agreement_with_noise_free_sign": 1.0,
+  "mismatch_rows": 9325,
+  "mismatch_share_with_abs_true_change_below_3_sigma": 0.9995710455764075,
+  "sensor_noise_sd_c": 0.22
+}

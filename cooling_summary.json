@@ -1,0 +1,10 @@
+{
+  "rows": 108000,
+  "net_cooling_share_measured": 0.6650185185185186,
+  "net_cooling_share_noise_free": 0.6681388888888888,
+  "mean_temp_change_cooling_rows_c": -2.2360639842308965,
+  "mean_temp_change_heating_rows_c": 1.0209112909923603,
+  "min_temp_change_c": -14.226974490311193,
+  "min_temp_change_device": "mobile_cpu",
+  "max_temp_change_c": 7.476703411539347
+}

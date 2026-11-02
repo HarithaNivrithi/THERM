@@ -1,0 +1,117 @@
+{
+  "status": "SYNTHETIC SIMULATION ONLY - not physical-device measurements",
+  "seed": 20261028,
+  "per_family": 72,
+  "repeats": 3,
+  "families": [
+    "vision_cnn",
+    "object_detector",
+    "audio_cnn",
+    "mlp",
+    "recurrent",
+    "transformer",
+    "vision_transformer",
+    "diffusion",
+    "sparse_cnn",
+    "quantized_mlp",
+    "semantic_segmentation",
+    "super_resolution",
+    "pose_estimation",
+    "video_action",
+    "speech_transformer",
+    "keyword_spotter",
+    "graph_neural_network",
+    "graph_transformer",
+    "recommendation_mlp",
+    "multimodal_fusion"
+  ],
+  "devices": [
+    "cpu",
+    "gpu",
+    "npu",
+    "mobile_cpu",
+    "dsp"
+  ],
+  "contexts": [
+    [
+      20.0,
+      27.0
+    ],
+    [
+      30.0,
+      48.0
+    ],
+    [
+      40.0,
+      64.0
+    ],
+    [
+      25.0,
+      38.0
+    ],
+    [
+      35.0,
+      55.0
+    ]
+  ],
+  "tau_s": {
+    "cpu": 62.400000000000006,
+    "gpu": 65.10000000000001,
+    "npu": 57.0,
+    "mobile_cpu": 45.599999999999994,
+    "dsp": 44.8
+  },
+  "sensor_noise_sd_c": 0.22,
+  "total_workloads": 1440,
+  "total_rows": 108000,
+  "models": [
+    "Ridge",
+    "RidgeLog",
+    "Lasso",
+    "RandomForest",
+    "GradientBoosting",
+    "GaussianProcess"
+  ],
+  "feature_configs": {
+    "M0_size_only": 8,
+    "M1_size_memory": 10,
+    "M1n_no_thermal_state": 8,
+    "M2_size_memory_sparse": 11,
+    "M3_full_descriptors": 52
+  },
+  "random_protocol_models": [
+    "Ridge",
+    "RidgeLog",
+    "GradientBoosting"
+  ],
+  "random_protocol_features": [
+    "M1_size_memory",
+    "M3_full_descriptors"
+  ],
+  "training_workloads_per_training_family": 24,
+  "training_workloads_per_fold": 432,
+  "split_sizes_rows": [
+    [
+      "family_holdout",
+      32400,
+      5400,
+      5400
+    ],
+    [
+      "random_workload",
+      32400,
+      5400,
+      5400
+    ]
+  ],
+  "coverage_target": 0.9,
+  "mondrian_min_calibration_rows": 30,
+  "gp_max_training_rows": 2000,
+  "skipped_fits": [],
+  "fits_with_convergence_warnings_by_model": {
+    "GaussianProcess": 1,
+    "Lasso": 22
+  },
+  "runtime_s": 5324.6,
+  "calibration_protocol": "family holdout: the next family in list order is the calibration family; random_workload: 72 random workloads; same train/cal/test sizes"
+}
