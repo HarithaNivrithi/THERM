@@ -1,0 +1,47 @@
+Generating dataset …
+  1440 workloads × 5 devices × 5 contexts × 3 repeats = 108000 rows
+Descriptive simulator analyses …
+Building design matrices …
+Running 40 folds on 11 worker(s); split sizes (rows) [('family_holdout', 32400, 5400, 5400), ('random_workload', 32400, 5400, 5400)]
+  done family_holdout fold 5 (recurrent) in 2571s
+  done family_holdout fold 11 (semantic_segmentation) in 2569s
+  done family_holdout fold 2 (object_detector) in 2585s
+  done family_holdout fold 10 (quantized_mlp) in 2591s
+  done family_holdout fold 7 (vision_transformer) in 2598s
+  done family_holdout fold 6 (transformer) in 2602s
+  done family_holdout fold 3 (audio_cnn) in 2609s
+  done family_holdout fold 8 (diffusion) in 2625s
+  done family_holdout fold 4 (mlp) in 2631s
+  done family_holdout fold 1 (vision_cnn) in 2641s
+  done family_holdout fold 9 (sparse_cnn) in 2659s
+  done random_workload fold 1 (random) in 430s
+  done random_workload fold 2 (random) in 440s
+  done random_workload fold 3 (random) in 438s
+  done random_workload fold 4 (random) in 467s
+  done random_workload fold 5 (random) in 412s
+  done random_workload fold 6 (random) in 406s
+  done random_workload fold 7 (random) in 436s
+  done random_workload fold 8 (random) in 416s
+  done random_workload fold 9 (random) in 423s
+  done random_workload fold 10 (random) in 435s
+  done family_holdout fold 15 (speech_transformer) in 2258s
+  done family_holdout fold 18 (graph_transformer) in 2242s
+  done family_holdout fold 19 (recommendation_mlp) in 2238s
+  done family_holdout fold 13 (pose_estimation) in 2290s
+  done family_holdout fold 17 (graph_neural_network) in 2282s
+  done family_holdout fold 20 (multimodal_fusion) in 2265s
+  done family_holdout fold 16 (keyword_spotter) in 2315s
+  done family_holdout fold 12 (super_resolution) in 2344s
+  done family_holdout fold 14 (video_action) in 2365s
+  done random_workload fold 11 (random) in 425s
+  done random_workload fold 12 (random) in 405s
+  done random_workload fold 13 (random) in 396s
+  done random_workload fold 14 (random) in 397s
+  done random_workload fold 16 (random) in 390s
+  done random_workload fold 15 (random) in 397s
+  done random_workload fold 17 (random) in 383s
+  done random_workload fold 18 (random) in 379s
+  done random_workload fold 19 (random) in 362s
+  done random_workload fold 20 (random) in 360s
+
+Saved outputs to results in 5324.6 s; skipped fits: 0
